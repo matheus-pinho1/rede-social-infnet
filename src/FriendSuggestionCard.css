@@ -1,0 +1,41 @@
+/* FriendSuggestionCard.css */
+/* Estilos para o card de sugestão de amigo */
+
+.friend-suggestion-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Espaçamento entre os cards */
+}
+
+/* Ajustes para centralizar os cards */
+.friend-suggestions-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+}
+
+.friend-suggestions-title {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.friend-suggestions-title h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  margin-left: 550px;
+}
+
+.friend-suggestion-photo {
+  width: 100px; 
+  height: auto; 
+  border-radius: 50px;
+}

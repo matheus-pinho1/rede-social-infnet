@@ -1,0 +1,26 @@
+.header {
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu div:last-child {
+  margin-right: 0;
+}
